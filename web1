@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style1.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: centure;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://gomechanic.in/blog/wp-content/uploads/2020/06/Hero-Honda-Splendor-01.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: wheat;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.dropbtn {
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5 ease;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="  ">
+            </div>
+            <ul>
+                <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="https://www.bikedekho.com/hero/splendor-pro/specifications">About</a></li>
+                <li><a href="http://127.0.0.1:5500/picture.html"><i class="fa fa-picture-o"></i>Image</a></li>
+                <a href="https://cdn.autoportal.com/bp-v3/img/models/ed/3/hero-problack-alloy-1464785913.JPG"></a>
+                <li><a href="https://i.ytimg.com/vi/y9E-8jqIb3Q/maxresdefault.jpg">Searvices</a></li>
+                <li><a href="http://127.0.0.1:5500/keycolor.html">Ordered form</a></li>
+                <li><a href="http://127.0.0.1:5501/code.html"><i class="fa fa-share"></i>Share</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fa fa-caret-down"></i>More Information</button>
+                    <div class="dropdown-content">
+                        <li><a href="https://ic.maxabout.us//misc/infographics//hero-splendor-pro-IG.jpg/thumb/650">Price</a></li><br>
+                        <li><a href="https://www.google.com/search?sa=X&bih=677&biw=1422&rlz=1C1RXQR_enIN1002IN1002&hl=en&q=splendor+pro+bike+models+scheduled&tbm=isch&source=univ&fir=V9iWu21qqjAHOM%252CYnE2taswbQiT_M%252C_%253B04LhyFjkgyvohM%252CTHs8GNqH6n9BmM%252C_%253BGOWYYHpjt6xMSM%252CVb2_NozuzcmqrM%252C_%253Ba65_K8as1McH7M%252CShjm6eSE_DO1RM%252C_%253BOs2CnUNLIFLaSM%252Cms7pscHD-LxLAM%252C_%253BXuhpgCuFGpoHdM%252ChNwW5mj0TVi2lM%252C_%253BJsLJYqQM5VSv-M%252CVLUDIqnlbF6TLM%252C_%253BRBIbmEt394XieM%252CPYHaPD96RnifvM%252C_%253Bho4fv13Sd1WytM%252C_GBgqcwnWiYLyM%252C_%253BrZqSDa-B351OiM%252CnOMAKbg_bJJJZM%252C_&usg=AI4_-kTe8nSKHT1zj9i9SKDYzx4uxelgBQ&ved=2ahUKEwjwzJTU3oP9AhWeplYBHfUXAAUQjJkEegQIBBAC">Model</a></li>
+                       
+                </div>
+                
+                </li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>BIKE</h1>
+        </div>
+        <div class="button">
+            <a href="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQpsAdc3LMyVItNllTvRtAvESI3xK4C-4kLlA" class="btn">WATCH VIDEOS</a>
+            <a href="https://bikeadvice.in/wp-content/uploads/2017/07/Splendor-iSmart-110-new-changed-spare-part-list-1020x788.jpeg" class="btn">LEARN MORE</a>
+        </div>
+    </header>
+</body>
+</html>
